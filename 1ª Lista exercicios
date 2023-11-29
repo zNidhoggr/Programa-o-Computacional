@@ -1,0 +1,122 @@
+#1ª questão
+#print("Hello world")
+
+#2ª questão
+#value = int(input("Informe um valor: \n"))
+
+#print("seu número é") 
+#print(value)
+
+#3ª questão
+#value = int(input("Informe um valor: \n"))
+#print(value-1)
+
+#4ª questão
+#value = int(input("Informe um valor: \n"))
+#value1 = int(input("Informe um valor: \n"))
+
+#print(value+value1)
+
+#5ª questão
+#value = int(input("Informe a primeira nota: \n"))
+#value1 = int(input("Informe a segunda nota: \n"))
+#value2 = int(input("Informe a terceira nota: \n"))
+
+#print((value+value1+value2)/3)
+
+#6ª questão
+#value = int(input("Informe a distancia em metros: \n"))
+
+#print(value*100)
+
+#7ª questão
+#value = int(input("Informe o valor do raio, em metros, do circulo: \n"))
+
+#print(3.14 * (value*value))
+
+#8ª questão
+#value = int(input("Informe o valor de um lado do quadrado, em metros: \n"))
+
+#print((value*value)*2)
+
+#9ª questão
+#hr = int(input("Informe quanto voce recebe por hora: \n"))
+#time = int(input("Informe quantas horas voce trabalhou no mes: \n"))
+
+#print(hr*time)
+
+#10ª questão
+#A = int(input("Informe o valor A: \n"))
+#B = int(input("Informe o valor B: \n"))
+
+#C=A
+#A=B
+#B=C
+
+#print(f"A:{A} B:{B}")
+
+#11ª questão
+#altura = float(input("Informe o valor da sua altura em metros: \n"))
+
+#print((altura*72.7) - 58)
+
+#12ª questão
+#nota1= float(input("Informe o valor da primeira nota: \n"))
+#nota2= float(input("Informe o valor da segunda nota: \n"))
+#nota3= float(input("Informe o valor da terceira nota: \n"))
+
+#media = ((nota1*2)+(nota2*4)+(nota3*4))/10
+#print(f'sua media é: {media}')
+
+#13ª questão
+#salario= float(input("Informe quanto voce ganha por mes: \n"))
+
+#salariobruto= salario
+#imposto=salario*0.08
+#sindicato=salario*0.05
+#salarioliquido=salario-imposto-sindicato
+
+#print(f'seu salario bruto é {salariobruto}, voce paga {imposto} de imposto, e {sindicato} ao sindicato, seu salario liquido é:{salarioliquido}')
+
+#14ª questão
+
+#value= int(input("Informe um valor inteiro: \n"))
+#value1= int(input("Informe um segundo valor inteiro: \n"))
+#valuef= float(input("Informe um valor real: \n"))
+
+#i1=(value*2) + (value1/2)
+#i2=(value*3) + (valuef)
+#i3=valuef*valuef*valuef
+
+#print(f'primeiro {i1},segundo {i2} terceiro {i3}')
+
+#15ª questão
+#total= int(input("Informe o numero total de eleitores no municipio: \n"))
+#nulo= int(input("Informe o total de votos nulos: \n"))
+#branco= int(input("Informe o total de votos brancos: \n"))
+#valido= int(input("Informe o total de votos validos: \n"))
+
+#porcentagemnulo=(nulo*100)/total
+#porcentagembranco=(branco*100)/total
+#porcentagemvalido=(valido*100)/total
+
+#print(f'o total de eleitores é {total}, a porcentagem de votos nulos {porcentagemnulo:,.2f}, a porcentagem de votos brancos {porcentagembranco:,.2f}, e a porcentagem de votos valido {porcentagemvalido:,.2f}')
+
+#16ª questão
+#salario= int(input("Informe o valor do salario mensal: \n"))
+#reajuste= float(input("Informe o valor do reajuste: \n"))
+
+#rsalario=(salario*reajuste)/100
+#nsalario = salario + rsalario
+
+#print(f'seu novo salario vai ser de {nsalario}')
+
+#17ª questão
+dia= int(input("Informe a quantidade de dias: \n"))
+hora= int(input("Informe a quantidade de horas: \n"))
+minuto= int(input("Informe a quantidade de minutos: \n"))
+segundo= int(input("Informe a quantidade de segundos: \n"))
+
+tsegundo=(dia*24*60*60) + (hora*60*60) + (minuto*60) + segundo
+
+print(tsegundo)
