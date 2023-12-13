@@ -250,3 +250,52 @@ elif (n1 >= 65):
 '''
 
 #-------------------------------------------------------
+
+#16)Faça um programa que receba o valor de x e imprima o valor de f(x) com base na
+#função abaixo:  se x > 3 f(x) = x^3
+'''
+x = float(input("Digite um número\n"))
+
+if (x <= 1):
+  print("f(%.2f) = 1" % (x))
+elif (1 < x <= 2):
+  print("f(%.2f) = 2" % (x))
+elif (2 < x <= 3):
+  print("f(%.2f) = %.2f" % (x, x**2))
+elif(x > 3):
+  print("f(%.2f) = %.2f" % (x, x**3))
+
+'''
+
+#-------------------------------------------------------
+
+#17)Faça um programa que receba um inteiro entre 1 e 7. Imprima o dia da semana
+#correspondente (1 sendo Domingo e 7 sendo Sábado). Caso o número recebido não
+#seja dentro do intervalo, imprima que o dia da semana não existe.
+
+'''
+dia = int(input("Digite um número entre 1 e 7\n"))
+
+if (dia == 1):
+  print("Domingo")
+elif (dia == 2):
+  print("Segunda-feira")
+elif (dia == 3):
+  print("Terça-feira")
+elif (dia == 4):
+  print("Quarta-feira")
+elif (dia == 5):
+  print("Quinta-feira")
+elif (dia == 6):
+  print("Sexta-feira")
+elif (dia == 7):
+  print("Sábado")
+else:
+  print("O dia da semana não existe")
+
+'''
+
+#-------------------------------------------------------
+
+
+#-------------------------------------------------------
